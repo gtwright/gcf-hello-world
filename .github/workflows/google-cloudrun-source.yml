@@ -86,6 +86,7 @@ jobs:
         with:
           name: 'cloud-source-repositories-test'
           runtime: 'nodejs20'
+          entry_point: 'helloGET'
 
       # If required, use the Cloud Run url output in later steps
       - name: Show Output
