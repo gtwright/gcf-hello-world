@@ -52,7 +52,7 @@ on:
 
 env:
   PROJECT_ID: cloud-source-repositories-test # TODO: update Google Cloud project id
-  SERVICE: cloudfunctions # TODO: update Cloud Run service name
+  SERVICE: gcf-hello-world # TODO: update Cloud Run service name
   REGION: us-central1 # TODO: update Cloud Run service region
 
 jobs:
