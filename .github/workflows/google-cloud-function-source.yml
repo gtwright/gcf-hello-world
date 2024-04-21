@@ -42,6 +42,7 @@ jobs:
           runtime: "nodejs20"
           entry_point: "helloGET"
           memory_mb: 512
+          secret_environment_variables: "MY_SECRET=projects/fivetran-function-419419/secrets/my-secret/versions/latest"
 
       # If required, use the Cloud Run url output in later steps
       - name: Show Output
